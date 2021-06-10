@@ -4,10 +4,16 @@
     margin: 1;
 }
 
+.flex-container {
+    display:flex;
+}
+
 body {
     background-color: #d9dcd6;
     flex-direction: column;
 }
+
+/*For header and navigation bar */
 
 .header {
     padding: 20px;
@@ -42,18 +48,17 @@ body {
     border-bottom: 2px solid;
 }
 
+.header nav a:hover { 
+    border-bottom:2px solid var(--heading-col);
+    color: white;
+}
+
 a {
     color: #312863;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .hero {
     height: 220px;
@@ -85,50 +90,36 @@ p {
     margin-right: 40px;
   }
 
-/*
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-*/
-
-.bio p {
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: relative;
-    justify-content: flex-end;
-
-}
 
 
 .information {
     margin: 20px;
-    padding: 50px;
-    height: 300px;
-    width: 1200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #312863;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-}
-
-
-.information img {
-    max-height: 200px;
 }
 
 
 .information h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+#project-list {
+    flex-wrap:wrap;
+}
+
+#project-list img {
+    opacity: 0.3;
+    max-width: 100%;
+    height:auto;
+}
+
+#project-list img:hover {
+    opacity:1;
+}
+
+#project-list #first {
+    flex-grow: 2;
 }
 
 .information ul {
@@ -141,6 +132,18 @@ p {
     border-bottom: 2px solid;
 }
 
+
+#Contact-Me p:hover { 
+    color: white;
+}
+
+#Contact-Me a:hover {
+    border-bottom:2px solid var(--heading-col);
+    color: white;
+}
+
+
+/* Accomadates the page to different sized screens */
 
 @media screen and (max-width: 980px) {
     header {
@@ -170,9 +173,9 @@ p {
         background-size: cover;
     }
 
-    .bio p{
-        width: 85%;
-      }
+    .information{
+        flex-direction: column;
+    }
 
     .information ul {     
         width: 100%;

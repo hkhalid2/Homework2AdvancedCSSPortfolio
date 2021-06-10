@@ -6,3 +6,7 @@ The given acceptance criteria included; creating a webpage with the developer's 
 This assignment was a success for the most part besides the overall layout being exact to the given gif. All links goto the right locations, the page resizes well and flex elements were used so that the webpage resizes well. The project images also match the specifications, where the first is larger than the others. 
 
 Conclusively, an html webpage was created from scratch and styled to meet specifications.
+
+Website URL: https://hkhalid2.github.io/Homework2AdvancedCSSPortfolio/
+Github Repository: https://github.com/hkhalid2/Homework2AdvancedCSSPortfolio
+![](assets/images/screencapture-hkhalid2-github-io-homework1-2021-06-02-14_32_58.png)

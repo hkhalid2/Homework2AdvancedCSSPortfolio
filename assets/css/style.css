@@ -15,22 +15,22 @@ body {
 
 /*For header and navigation bar */
 
-.header {
+.container {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #596b7c;
+    background-color: #d9dcd6;
     display: flex;
     justify-content: space-between;
-    color: #ffffff;
+    color: #596b7c;
 }
 
-.header h1 {
+.container h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 
-.header nav {
+.container navbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,17 +38,17 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+.container navbar ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+.nav-link {
     display: inline-block;
     margin-left: 25px;
     border-bottom: 2px solid;
 }
 
-.header nav a:hover { 
+.nav-link:hover { 
     border-bottom:2px solid var(--heading-col);
     color: white;
 }
@@ -60,7 +60,7 @@ a {
 
 
 
-.hero {
+.image-fluid {
     height: 220px;
     width: 100%;
     margin-bottom: 25px;
@@ -71,6 +71,14 @@ a {
     justify-content: flex-end;
     flex-wrap: wrap;
     position: relative;
+}
+
+.image-fluid h2 {
+    margin-top: 100px ;
+    color:#d9dcd6;
+    text-align: right;
+    font-style: italic;
+
 }
 
 .image2 {
@@ -122,11 +130,11 @@ a {
     flex-grow: 2;
 }
 
-.information ul {
+#Contact-Me ul {
     list-style-type: none;
 }
 
-.information ul li {
+#Contact-Me ul li {
     display: inline-block;
     margin-left: 25px;
     border-bottom: 2px solid;
@@ -156,7 +164,7 @@ a {
       text-align: center;
     }
   
-    header nav ul {
+    header navbar ul {
       margin-top: 20px;
       width: 100%;
       justify-content: center;
@@ -164,7 +172,7 @@ a {
       line-height: 1.5;
     }
   
-    header nav ul li a {
+    header navbar ul li a {
       font-size: 16px;
       font-weight: bold;
     }

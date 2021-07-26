@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Hamza Khalid's Portfolio</title>
 </head>
@@ -11,32 +12,41 @@
 
     <!-- Header and Navigation Bar --> 
 
-    <header class="header">
+    <header class="container">
         <h1>Hamza Khalid</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About-Me" title="About Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Contact-Me" title="Contact Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#Projects" title="Projects">Projects</a>
-                </li>
-                <li>
-                    <a href="./assets/documents/Resumetelecommunications.pdf">Resume</a>
-                </li>
-            </ul>
-        </nav>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#About-Me">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact-Me">Contact Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./assets/documents/Resumetelecommunications.pdf">Resume</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
              <!-- hero/ Self Image/banner -->
-        <section class="hero">        
+        <section class="image-fluid">        
         <img class="image2" src="./assets/images/self.jpeg" alt="candidate photo"/>
              <div>
-                <h2>Web Developer</h2>
+                
             </div>
+            <h2>Web Developer</h2>
         </section>
 
 
@@ -45,10 +55,10 @@
     <!--Section About Me-->
 
 
-        <section id="About-Me" class="information">
+        <section id="About-Me" class="container">
             <div class="text-block">
             <h2>About Me</h2>
-                <p>
+                <p class="container">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta molestias a repellat facere eaque labore aut, enim dolorum reprehenderit, accusamus quaerat. Minima explicabo maxime dolorum totam deserunt voluptatum sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quisquam molestiae quae natus repudiandae labore reprehenderit fugit quasi odio quis voluptatibus nostrum laudantium, fugiat iusto nemo minus ad excepturi officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsa nostrum molestiae? Maxime, commodi consequatur deleniti unde est voluptatibus illum aut temporibus totam ipsam dicta laboriosam similique doloremque quisquam dolore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus porro quidem sed quam. Consequuntur veritatis suscipit aspernatur iure quod. Aliquam sed quasi iure? Illo aspernatur explicabo pariatur exercitationem odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt corrupti eaque molestiae dolorem placeat velit possimus atque nemo laudantium illum error, quam omnis temporibus. Dolore ratione illo optio eum iusto?
                 </p>
             </div>
@@ -56,7 +66,7 @@
 
     <!--Projects and Contact Me Section-->
 
-        <section id="Projects" class="information">
+        <section id="Projects" class="container">
             <h3>Projects</h3>
             <div class="information" id="project-list">
 
@@ -84,7 +94,7 @@
             </div>
         </section>
 
-        <section id="Contact-Me" class="information">
+        <section id="Contact-Me" class="container">
             <h2>Contact Me</h2>
             <ul>
                 <li>
@@ -97,15 +107,13 @@
                     <a href="https://github.com/hkhalid2">GitHub</a>   
                 </li>
                 <li>
-                    <a href="#twitter">Twitter</a>
+                    <a href="https://www.linkedin.com/in/hamza-khalid-60785b1b8/">LinkedIn</a>   
                 </li>
-                <li>
-                    <a href="#spotify">Spotify</a>   
-                </li>                    
+                  
             </ul>
         </section>
 
 
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

@@ -1,4 +1,4 @@
-# Homework2AdvancedCSSPortfolio
+# Portfolio
 This repository contains the second homework assignment which involved creating a portfolio using CSS and HTML.
 
 The given acceptance criteria included; creating a webpage with the developer's name, photo, work and contact information, the UI scrolling to a certain section when a corresponding link is clicked, titled images of the developer's work, the first work's image should be larger than the other, the image of the application link to the deployed application, and finally when the screen is resized or changed the layout adapts to the viewport.
